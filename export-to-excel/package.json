@@ -1,5 +1,5 @@
 {
-  "name": "export-to-excel-container",
+  "name": "export-to-excel",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,11 +12,10 @@
     "xlsx": "^0.16.1"
   },
   "scripts": {
-    "start": "set PORT=5000 && react-scripts start",
+    "start": "set PORT=5001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "openfin": "openfin --launch --config app.json"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

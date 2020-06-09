@@ -1,0 +1,26 @@
+{
+  "devtools_port": 9090,
+  "startup_app": {
+    "name": "OpenfinPOC",
+    "description": "OpenFin POC",
+    "url": "http://localhost:5000",
+    "uuid": "OpenfinPOC-oh071g7h6s",
+    "autoShow": true,
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true
+      }
+    }
+  },
+  "runtime": {
+    "arguments": "--disable-gpu --disable-web-security",
+    "version": "15.80.50.34"
+  },
+  "shortcut": {
+    "company": "OpenFin",
+    "description": "Openfin POC",
+    "name": "Openfin POC",
+    "uninstall-shortcut": true,
+    "force": true
+  }
+}
